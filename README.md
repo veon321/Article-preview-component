@@ -17,7 +17,6 @@ This is a clean, responsive, and modern solution to the Article preview componen
 
 ## Features
 
-- **State Persistence & Context Control**: Leverages a click event listener structure combined with a `.contains()` document checking routine to automatically collapse the share overlay when a user clicks outside the interface frame.
 - **Responsive Stacking States**: Switches between a floating micro-tooltip with built-in layout pointers (CSS triangle indicators) on desktop viewports and an integrated, full-width status block that substitutes author profiles on small devices.
 - **Adaptive SVG Assets**: Utilizes native CSS filter pipelines (`filter: brightness(0) invert(1)`) to reverse asset contrasts on active trigger click events, altering target asset paths dynamically without extra HTTP requests.
 - **Fluid Dynamic Architecture**: Eradicates restrictive device breakpoints by implementing dynamic scaling expressions (`clamp()`), enforcing textual layers and asset distributions to resize within the mobile-to-desktop viewport continuum.
